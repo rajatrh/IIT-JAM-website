@@ -1,0 +1,57 @@
+body {
+    font-size: 16px;
+}
+.classes {
+	margin:30px;
+}
+
+#classes-filter li {
+    float: left;
+	margin: 0px 5px;
+    list-style: none;
+}
+
+#publication-list {
+	padding: 0px;
+}
+
+#classes-list li {
+    list-style: circle;
+	width: 95%;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+	overflow: visible;
+}
+
+.noshow > button{
+	margin-top: 10px;
+}
+	  	
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	-ms-transition-property: height, width;
+	-o-transition-property: height, width;
+	transition-property: height, width;
+}
+	  	
+
+	  	
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property:    -moz-transform, opacity;
+	-ms-transition-property:     -ms-transform, opacity;
+	-o-transition-property:         top, left, opacity;
+	transition-property:         transform, opacity;
+}
+
+.bg-success {
+	background-color: #dff0d8;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
